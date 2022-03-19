@@ -1,3 +1,3 @@
 # Mouse Hover Effect
 
-When corser come to image it change automaticaly with zero opacity to another image
+When cursor comes to image it changes automatically with zero opacity to another image.
