@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fading Task</title>
+    <style>
+        body{
+            background:#333333;
+        }
+        #cif{
+            position: relative;
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            color: #fff;
+        }
+        #cif img{
+            position: absolute;
+            left: 0;
+            width: 400px;
+            height: 400px;
+            border: 2px solid white;
+            border-radius: 10px;
+            transition: opacity 1s ease-in-out;
+        }
+        #cif img.top:hover{
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="cif">
+        <h1><center>One Image to Another Image</center></h1>
+        <img class="buttom" src="1.jpg" alt=""/>
+        <img class="top" src="2.jpg" alt=""/>
+    </div>
+</body>
+</html>
